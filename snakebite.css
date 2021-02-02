@@ -1,0 +1,70 @@
+/**
+ *
+ * SNAKEBITE.CSS by snake voraire
+ * This is my personal CSS framework. I use it for all of my html projects.
+ * All of my code is PUBLIC DOMAIN. Copy, redistribute, edit, etc. whatever you want.
+ *
+ */
+
+*, *:before, *:after { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+ 
+html {
+margin:0;
+padding:0;
+font-family:BlinkMacSystemFont,-apple-system,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+font-size:100%;
+line-height:1.5;
+text-size-adjust:100%;
+-moz-osx-font-smoothing:grayscale;
+-webkit-font-smoothing:antialiased;
+text-rendering:optimizeLegibility;
+word-wrap:break-word; }
+
+body { margin:0; padding:0; }
+article, aside, figcaption, figure, footer, header, hgroup, main, section { display:block; }
+
+p, ul, ol { margin:1em 0; }
+p:only-child { margin:0; }
+p:first-child { margin-top:0; }
+p:last-child { margin-bottom:0; }
+
+ul li { margin:5px; margin-left:-15px; padding-left:10px; }
+
+pre, code { font-family:monospace; font-size:1em; overflow-x:auto; }
+
+table { border-color:inherit; text-indent:0; }
+
+details { display:block; }
+summary { display:list-item; }
+
+iframe { border:0; }
+
+hr { height:0; color:inherit; overflow:visible; }
+
+::-moz-focus-inner { border-style:none; padding:0; }
+:-moz-ui-invalid { box-shadow:none; }
+
+b, strong { font-weight:bolder; }
+i, address, cite, em, dfn, var { font-style:italic; }
+
+a { background-color:transparent; }
+
+small { font-size:80%; }
+
+sub, sup { font-size:75%; line-height:0; position:relative; vertical-align:baseline; }
+sub { bottom:-0.25em; }
+sup { top:-0.5em; }
+
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; line-height:1.1; }
+h1 { font-size:2.35em; margin:0.67em 0; }
+h2 { font-size:2em; }
+h3 { font-size:1.75em; }
+h4 { font-size:1.5em; }
+h5 { font-size:1.25em; }
+h6 { font-size:1em; }
+
+img, video, audio, embed, iframe, object, svg { max-width:100%; height:auto; border:none; border-style:none; vertical-align:middle; }
+
+abbr[title] { border-bottom:none; text-decoration:underline dotted; }
+
+.hidden, [hidden] { display:none!important; }
