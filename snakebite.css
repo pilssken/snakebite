@@ -28,7 +28,7 @@ p:only-child { margin:0; }
 p:first-child { margin-top:0; }
 p:last-child { margin-bottom:0; }
 
-ul li { margin:5px; margin-left:-15px; padding-left:10px; }
+ul li { margin:0; margin-left:-15px; padding-left:10px; }
 
 pre, code { font-family:monospace; font-size:1em; overflow-x:auto; }
 
