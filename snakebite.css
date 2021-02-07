@@ -28,7 +28,8 @@ p:only-child { margin:0; }
 p:first-child { margin-top:0; }
 p:last-child { margin-bottom:0; }
 
-ul li { margin:0; margin-left:-15px; padding-left:10px; }
+ul > ul { margin:5px 0 5px -15px; }
+ul > li { margin:3px 0; margin-left:-15px; padding-left:10px; }
 
 pre, code { font-family:monospace; font-size:1em; overflow-x:auto; }
 
