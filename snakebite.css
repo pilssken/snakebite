@@ -1,18 +1,26 @@
 /**
  *
  * SNAKEBITE.CSS by snake voraire
- * This is my personal CSS framework. I use it for all of my html projects.
+ * This is my personal CSS framework. I use it for all of my css + html projects.
  * All of my code is PUBLIC DOMAIN. Copy, redistribute, edit, etc. whatever you want.
+ * Last updated: 21 Feb 2021
  *
  */
 
 *, *:before, *:after { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
- 
-html {
+
+html, body, div, span, object, iframe, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
+h1, h2, h3, h4, h5, h6, p, blockquote, code, pre, small, strong, sub, sup, b, i, em, var, abbr, address, cite, del, dfn, img, ins, kbd, q, samp, dl, dt, dd, ol, ul, li,
+audio, video, table, caption, tbody, tfoot, thead, tr, th, td, fieldset, form, label, legend, time, mark {
 margin:0;
 padding:0;
-font-family:BlinkMacSystemFont,-apple-system,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+border:0;
+outline:0;
 font-size:100%;
+background:transparent; }
+ 
+html {
+font-family:BlinkMacSystemFont,-apple-system,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','Helvetica','Arial',sans-serif;
 line-height:1.5;
 text-size-adjust:100%;
 -moz-osx-font-smoothing:grayscale;
@@ -21,24 +29,33 @@ text-rendering:optimizeLegibility;
 word-wrap:break-word; }
 
 body { margin:0; padding:0; }
-article, aside, figcaption, figure, footer, header, hgroup, main, section { display:block; }
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section  { display:block; }
 
 p, ul, ol { margin:1em 0; }
-p:only-child { margin:0; }
-p:first-child { margin-top:0; }
-p:last-child { margin-bottom:0; }
+p:only-child, ul:only-child, ol:only-child, h1:only-child, h2:only-child, h3:only-child, h4:only-child, h5:only-child, h6:only-child { margin:0; }
+p:first-child, ul:first-child, ol:first-child, h2:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child { margin-top:0; }
+p:last-child, ul:last-child, ol:last-child, h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child { margin-bottom:0; }
+
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; }
+h1 { font-size:2.25em; }
+h2 { font-size:2em; }
+h3 { font-size:1.75em; }
+h4 { font-size:1.5em; }
+h5 { font-size:1.25em; }
+h6 { font-size:1em; }
 
 ul > ul { margin:5px 0 5px -15px; }
 ul > li { margin:3px 0; margin-left:-15px; padding-left:10px; }
+
+blockquote, q { quotes:none; }
+blockquote:before, blockquote:after, q:before, q:after { content:''; content:none; }
 
 pre, code { font-family:monospace; font-size:1em; overflow-x:auto; }
 
 table { border-color:inherit; text-indent:0; }
 
-details { display:block; }
-summary { display:list-item; }
-
-iframe { border:0; }
+img, video, audio, embed, iframe, object, svg { max-width:100%; height:auto; }
 
 hr { height:0; color:inherit; overflow:visible; }
 
@@ -47,25 +64,15 @@ hr { height:0; color:inherit; overflow:visible; }
 
 b, strong { font-weight:bolder; }
 i, address, cite, em, dfn, var { font-style:italic; }
+del { text-decoration:line-through; }
 
-a { background-color:transparent; }
+a { margin:0; padding:0; background-color:transparent; }
+a[title], abbr[title] { border-bottom:none; text-decoration:underline dotted; }
 
 small { font-size:80%; }
 
 sub, sup { font-size:75%; line-height:0; position:relative; vertical-align:baseline; }
 sub { bottom:-0.25em; }
 sup { top:-0.5em; }
-
-h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; line-height:1.1; }
-h1 { font-size:2.35em; margin:0.67em 0; }
-h2 { font-size:2em; }
-h3 { font-size:1.75em; }
-h4 { font-size:1.5em; }
-h5 { font-size:1.25em; }
-h6 { font-size:1em; }
-
-img, video, audio, embed, iframe, object, svg { max-width:100%; height:auto; border:none; border-style:none; vertical-align:middle; }
-
-abbr[title] { border-bottom:none; text-decoration:underline dotted; }
 
 .hidden, [hidden] { display:none!important; }
