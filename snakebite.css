@@ -67,7 +67,7 @@ i, address, cite, em, dfn, var { font-style:italic; }
 del { text-decoration:line-through; }
 
 a { margin:0; padding:0; background-color:transparent; }
-a[title], abbr[title] { border-bottom:none; text-decoration:underline dotted; }
+a[title], abbr[title] { border-bottom:none; text-decoration:underline dotted; cursor:help; }
 
 small { font-size:80%; }
 
