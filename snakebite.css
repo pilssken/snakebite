@@ -7,10 +7,15 @@
  *
  */
 
-*, *:before, *:after { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+*,
+*:before,
+*:after {
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box; }
 
 html, body, div, span, object, iframe, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
-h1, h2, h3, h4, h5, h6, p, blockquote, code, pre, small, strong, sub, sup, b, i, em, var, abbr, address, cite, del, dfn, img, ins, kbd, q, samp, dl, dt, dd, ol, ul, li,
+h1, h2, h3, h4, h5, h6, p, blockquote, code, pre, small, strong, sub, sup, b, i, em, var, abbr, address, cite, del, dfn, img, ins, kbd, q, samp, dl, dt, dd,
 audio, video, table, caption, tbody, tfoot, thead, tr, th, td, fieldset, form, label, legend, time, mark {
 margin:0;
 padding:0;
@@ -18,6 +23,8 @@ border:0;
 outline:0;
 font-size:100%;
 background:transparent; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
  
 html {
 font-family:BlinkMacSystemFont,-apple-system,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','Helvetica','Arial',sans-serif;
@@ -28,9 +35,9 @@ text-size-adjust:100%;
 text-rendering:optimizeLegibility;
 word-wrap:break-word; }
 
-body { margin:0; padding:0; }
-
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section  { display:block; }
+body {
+margin:0;
+padding:0; }
 
 p, ul, ol { margin:1em 0; }
 p:only-child, ul:only-child, ol:only-child, h1:only-child, h2:only-child, h3:only-child, h4:only-child, h5:only-child, h6:only-child { margin:0; }
