@@ -66,10 +66,6 @@ pre { overflow-x:auto; }
 code { overflow-x:visible; }
 kbd { padding:0.25em; background-color:#ddd; border:1px solid #555; }
 
-table { text-indent:0; border:1px solid black; }
-th, td { padding:0.4em; border:1px solid black; }
-th { text-align:left; }
-
 details { margin: 1em 0; }
 summary { display:inline-block; border-bottom:none; text-decoration:underline dotted; cursor:pointer; font-weight:bold; }
 details p { margin:0.25em; font-size:0.9em; }
