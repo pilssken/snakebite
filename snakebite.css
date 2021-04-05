@@ -18,9 +18,6 @@ html {
 font-family:BlinkMacSystemFont,-apple-system,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','Helvetica','Arial',sans-serif;
 line-height:1.5;
 text-size-adjust:100%;
--moz-osx-font-smoothing:grayscale;
--webkit-font-smoothing:antialiased;
-text-rendering:optimizeLegibility;
 word-wrap:break-word; }
 
 body {
@@ -32,9 +29,9 @@ margin:20px auto;
 width:500px; }
 
 p, ul, ol { margin:1em 0; }
-p:only-child, ul:only-child, ol:only-child { margin:0; }
-p:first-child, ul:first-child, ol:first-child { margin-top:0; }
-p:last-child, ul:last-child, ol:last-child { margin-bottom:0; }
+p:only-child, ul:only-child, ol:only-child, blockquote:only-child { margin:0; }
+p:first-child, ul:first-child, ol:first-child, blockquote:first-child { margin-top:0; }
+p:last-child, ul:last-child, ol:last-child, blockquote:last-child { margin-bottom:0; }
 
 p { hyphens:auto; }
 
@@ -52,7 +49,7 @@ li { margin:5px 0 5px -10px; padding-left:10px; }
 img, video, audio, embed, iframe, object, svg { margin:0; padding:0; max-width:100%; height:auto; vertical-align:middle; }
 
 dt { font-weight:bold; }
-blockquote, dd { margin:1em; padding:0.5em 0 0.5em 1.5em; border-left:3px solid #ddd; }
+blockquote, dd { margin:0.5em 1em; padding:0.5em 0 0.5em 1.5em; border-left:3px solid #ddd; }
 blockquote, q { quotes:none; }
 blockquote:before, blockquote:after, q:before, q:after { content:''; content:none; }
 
