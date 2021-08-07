@@ -3,77 +3,46 @@
  * SNAKEBITE.CSS by SNAKE VENOM
  * This is my personal CSS reset/framework. I use it for all of my css + html projects.
  * All of my code is CC0 PUBLIC DOMAIN. Copy, redistribute, edit, etc. whatever you want.
- * Last updated: 30 July 2021
+ * Last updated: 6 August 2021
  *
 */
 
- @import url("https://cdn.jsdelivr.net/gh/pilssken/assets/fonts.css");
+@import url("https://cdn.jsdelivr.net/gh/pilssken/assets/fonts.css");
 
- *, *:before, *:after { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
-  
- html {
- font-family:BlinkMacSystemFont,-apple-system,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','Helvetica','Arial',sans-serif;
- line-height:1.5;
- text-size-adjust:100%;
- word-wrap:break-word; }
- 
- body { margin:0; padding:0; }
- 
- main { margin:0 auto; padding:0; width:500px; }
- 
- p, ul, ol { margin:1em 0; }
- p:only-child, ul:only-child, ol:only-child, blockquote:only-child, h1:only-child, h2:only-child, h3:only-child, h4:only-child, h5:only-child, h6:only-child { margin:0; }
- p:first-child, ul:first-child, ol:first-child, blockquote:first-child, h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child { margin-top:0; }
- p:last-child, ul:last-child, ol:last-child, blockquote:last-child, h1:last-child, h2:last-child, h3:last-child. h4:last-child, h5:last-child, h6:last-child { margin-bottom:0; }
- 
- h1, h2, h3, h4, h5, h6 { font-weight:normal; margin:0.5em 0; line-height:1.1; }
- h1 { font-size:2.25em; }
- h2 { font-size:2em; }
- h3 { font-size:1.75em; }
- h4 { font-size:1.5em; }
- h5 { font-size:1.25em; }
- h6 { font-size:1em; }
+html {
+font-family:BlinkMacSystemFont,-apple-system,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','Helvetica','Arial',sans-serif;
+text-size-adjust:100%;
+line-height:1.5; }
 
- li { margin:5px 0 5px -10px; padding-left:10px; }
- 
- img, video, audio, embed, iframe, object, svg { margin:0; padding:0; max-width:100%; height:auto; vertical-align:middle; }
- 
- dt { font-weight:bold; }
- blockquote, dd { margin:0.5em 1em; padding:0.5em 0 0.5em 1.5em; border-left:3px solid #ddd; }
- blockquote, q { quotes:none; }
- blockquote:before, blockquote:after, q:before, q:after { content:''; content:none; }
- 
- figure { margin:1em 0; }
- figure img { display:block; }
- figcaption { margin-top:0.25em; font-size:0.9em; color:grey; }
- 
- pre, code { display:inline; margin:0; padding:0; font-family:monospace; font-size:1em; }
- pre code { display:block; margin:0; padding:1em; min-width:100%; background-color:#ddd; overflow-x:auto; }
- pre { overflow-x:auto; }
- code { overflow-x:visible; }
- kbd { padding:0.25em; background-color:#ddd; border:1px solid #555; }
- 
- details { margin: 1em 0; }
- summary { display:inline-block; border-bottom:none; text-decoration:underline dotted; cursor:pointer; font-weight:bold; }
- details p { margin:0.25em; font-size:0.9em; }
- 
- hr { margin:1.25em 0; height:1px; background-color:grey; border:0; overflow:visible; }
- 
- ::-moz-focus-inner { border-style:none; padding:0; }
- :-moz-ui-invalid { box-shadow:none; }
- 
- b, strong { font-weight:bolder; }
- i, address, cite, em, dfn, var { font-style:italic; }
- mark { background-color:#ffeeb0; }
- del { text-decoration:line-through; }
- 
- a { margin:0; padding:0; color:inherit; background-color:transparent; }
- a[title], abbr[title] { border-bottom:none; text-decoration:underline dotted; cursor:help; }
- 
- small { font-size:80%; }
- 
- sub, sup { font-size:75%; line-height:0; position:relative; vertical-align:baseline; }
- sub { bottom:-0.25em; }
- sup { top:-0.5em; }
- 
- .hidden, [hidden] { display:none!important; }
+body { margin:0; padding:0; }
+
+main { margin:0 auto; padding:0; width:500px; }
+
+h1, h2, h3, h4, h5, h6 { font-weight:normal; margin:0.5em 0; line-height:1.1; }
+h1 { font-size:2.25em; }
+h2 { font-size:2em; }
+h3 { font-size:1.75em; }
+h4 { font-size:1.5em; }
+h5 { font-size:1.25em; }
+h6 { font-size:1em; }
+
+img, video { margin:0; padding:0; max-width:100%; vertical-align:middle; border-style:none; }
+
+hr { margin:1.25em 0; height:1px; background-color:grey; border:0; overflow:visible; }
+
+b, strong { font-weight:bolder; }
+
+a { color:inherit; background-color:transparent; }
+
+small { font-size:80%; }
+
+code, pre { font-family: monospace; font-size:1em; }
+
+sub, sup { position:relative; font-size:75%; line-height:0; vertical-align:baseline; }
+sub { bottom:-0.25em; }
+sup { top:-0.5em; }
+
+::-moz-focus-inner { border-style:none; padding:0; }
+:-moz-ui-invalid { box-shadow:none; }
+
+.hidden, [hidden] { display:none!important; }
