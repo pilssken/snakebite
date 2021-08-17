@@ -16,8 +16,6 @@ line-height:1.5; }
 
 body { margin:0; padding:0; }
 
-main { margin:0 auto; padding:0; }
-
 p:first-child { margin-top:0; }
 p:last-child { margin-bottom:0; }
 p:only-child { margin:0; }
