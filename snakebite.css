@@ -1,13 +1,13 @@
 /**
  *
  * SNAKEBITE.CSS by SNAKE VENOM
- * This is my personal CSS reset/framework. I use it for all of my css + html projects.
- * All of my code is CC0 PUBLIC DOMAIN. Copy, redistribute, edit, etc. whatever you want.
- * Last updated: 11 August 2021
+ * Last updated: 1 Sept 2021
  *
  */
 
 @import url("https://cdn.jsdelivr.net/gh/pilssken/assets/fonts.css");
+
+* { box-sizing:border-box; }
 
 html {
 font-family:BlinkMacSystemFont,-apple-system,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','Helvetica','Arial',sans-serif;
