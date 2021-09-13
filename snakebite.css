@@ -7,14 +7,17 @@
 
 @import url("https://cdn.jsdelivr.net/gh/pilssken/assets/fonts.css");
 
-* { box-sizing:border-box; }
+*, ::before, ::after { -webkit-box-sizing:border-box; box-sizing:border-box; }
 
 html {
 font-family:BlinkMacSystemFont,-apple-system,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','Helvetica','Arial',sans-serif;
 text-size-adjust:100%;
-line-height:1.5; }
+line-height:1.5;
+-webkit-tap-highlight-color:transparent; }
 
 body { margin:0; padding:0; }
+
+main { display:block; }
 
 p:first-child { margin-top:0; }
 p:last-child { margin-bottom:0; }
@@ -30,6 +33,8 @@ h6 { font-size:1em; }
 
 img, video { margin:0; padding:0; max-width:100%; vertical-align:middle; border-style:none; }
 
+iframe { border-style:none; }
+
 hr { margin:1.25em 0; height:1px; background-color:grey; border:0; overflow:visible; }
 
 b, strong { font-weight:bolder; }
@@ -38,11 +43,13 @@ a { color:inherit; background-color:transparent; }
 
 small { font-size:80%; }
 
-code, pre { font-family: monospace; font-size:1em; }
+code, pre { font-family:monospace; font-size:1em; }
 
 sub, sup { position:relative; font-size:75%; line-height:0; vertical-align:baseline; }
 sub { bottom:-0.25em; }
 sup { top:-0.5em; }
+
+abbr[title] { text-decoration:underline; -webkit-text-decoration:underline dotted; text-decoration:underline dotted; }
 
 ::-moz-focus-inner { border-style:none; padding:0; }
 :-moz-ui-invalid { box-shadow:none; }
