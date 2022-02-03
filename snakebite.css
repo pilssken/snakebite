@@ -1,16 +1,9 @@
-/**
- *
- * SNAKEBITE.CSS by SNAKE VENOM
- * Last updated: 14 Nov 2021
- *
- */
-
 @import url("https://cdn.jsdelivr.net/gh/pilssken/assets/fonts.css");
 
-*, ::before, ::after { -webkit-box-sizing:border-box; box-sizing:border-box; }
+*, ::before, ::after { -webkit-box-sizing:border-box; box-sizing:border-box; margin:0; padding:0; }
 
 html {
-font-family:BlinkMacSystemFont,-apple-system,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','Helvetica','Arial',sans-serif;
+font-family:BlinkMacSystemFont,-apple-system,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji';
 -webkit-text-size-adjust:100%;
 line-height:1.5; }
 
@@ -18,9 +11,9 @@ body { margin:0; padding:0; }
 
 main { display:block; }
 
-p:first-child { margin-top:0; }
-p:last-child { margin-bottom:0; }
-p:only-child { margin:0; }
+p:first-child, h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child, blockquote:first-child { margin-top:0; }
+p:last-child, h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, blockquote:last-child { margin-bottom:0; }
+p:only-child, h1:only-child, h2:only-child, h3:only-child, h4:only-child, h5:only-child, h6:only-child, blockquote:only-child { margin:0; }
 
 h1, h2, h3, h4, h5, h6 { font-weight:normal; margin:0.5em 0; line-height:1.1; }
 h1 { font-size:2.25em; }
@@ -30,7 +23,7 @@ h4 { font-size:1.5em; }
 h5 { font-size:1.25em; }
 h6 { font-size:1em; }
 
-code, pre { font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace; font-size:1em; }
+code, pre, kbd, samp { font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace; font-size:1em; }
 
 table { text-indent:0; border-color:inherit; }
 
@@ -39,9 +32,13 @@ img, video { margin:0; padding:0; max-width:100%; vertical-align:middle; border-
 iframe { border-style:none; }
 
 button, input, optgroup, select, textarea { margin:0; font-family:inherit; font-size:100%; line-height:1.15; }
+button, select { text-transform:none; }
 button, [type='button'], [type='reset'], [type='submit'] { -webkit-appearance:button; }
+[type='search'] { -webkit-appearance:textfield; outline-offset:-2px; }
+::-webkit-file-upload-button { -webkit-appearance:button; font:inherit; }
+::-webkit-search-decoration { -webkit-appearance:none; }
 
-hr { margin:1.25em 0; height:1px; background-color:grey; border:0; overflow:visible; }
+hr { margin:1.25em 0; height:1px; color:inherit; background-color:grey; border:0; overflow:visible; }
 
 b, strong { font-weight:bolder; }
 
@@ -55,8 +52,16 @@ sup { top:-0.5em; }
 
 abbr[title] { text-decoration:underline; -webkit-text-decoration:underline dotted; text-decoration:underline dotted; }
 
+summary { display:list-item; }
+
+legend { padding:0; }
+
+progress { vertical-align:baseline; }
+
 ::-moz-focus-inner { border-style:none; padding:0; }
 :-moz-focusring { outline:1px dotted ButtonText; }
 :-moz-ui-invalid { box-shadow:none; }
+
+::-webkit-inner-spin-button, ::-webkit-outer-spin-button { height: auto; }
 
 .hidden, [hidden] { display:none!important; }
