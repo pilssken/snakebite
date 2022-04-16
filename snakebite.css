@@ -11,9 +11,9 @@ body { margin:0; padding:0; }
 
 main { display:block; }
 
-p:first-child, h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child, blockquote:first-child { margin-top:0; }
-p:last-child, h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, blockquote:last-child { margin-bottom:0; }
-p:only-child, h1:only-child, h2:only-child, h3:only-child, h4:only-child, h5:only-child, h6:only-child, blockquote:only-child { margin:0; }
+p:first-child, h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child, blockquote:first-child, figure:first-child { margin-top:0; }
+p:last-child, h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, blockquote:last-child, figure:last-child { margin-bottom:0; }
+p:only-child, h1:only-child, h2:only-child, h3:only-child, h4:only-child, h5:only-child, h6:only-child, blockquote:only-child, figure:only-child { margin:0; }
 
 h1, h2, h3, h4, h5, h6 { font-weight:normal; margin:0.5em 0; line-height:1.1; }
 h1 { font-size:2.25em; }
